@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buton</title>
+</head>
+<body>
+    <!--
+    <a href="ders3.html">
+    <button style="background-color: blueviolet; color: aliceblue; border-radius: 10px;">Tıkla</button>
+    </a>
+    -->
+
+    <button onclick="tikla()" style="background-color: blueviolet; color: aliceblue; border-radius: 10px;">Tıkla</button>
+    <p id="yazi">Butona Bas!</p>
+    <script>
+        function tikla()
+        {
+            document.getElementById("yazi").innerHTML="Butona Bastınız!"
+        }
+    </script>
+
+    <!--
+    button ile buton oluştur
+    butonu hyperlinke dönüştürmek için buton satırını a parametresinin içine koy
+    butonu deaktif etmek için <button> içine disabled ekle
+    -->
+
+</body>
+</html>
